@@ -1,0 +1,15 @@
+.profile__plan{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+    opacity: .8;
+}
+.profile__plan:hover{
+    opacity: 1;
+}
+.profile__plan > button{
+    cursor: pointer;
+    color:white;
+    background-color: crimson;
+    font-weight: bold;
+}

@@ -1,0 +1,44 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  color: white;
+}
+.profile__info{
+    display: flex;
+    justify-content: space-evenly;
+    padding:3px;
+}
+
+.profile__image > img {
+  width: 90px;
+}
+.profile__image{
+    margin-right:12px;
+}
+.profile__plans > h3{
+    margin-bottom: 10px;
+}
+.profile__signOut{
+    width: 100%;
+    background-color: crimson;
+    color:white;
+    font-weight: bold;
+    border:none;
+    outline: none;
+    cursor: pointer;
+}
+.profile__body > h1, .profile__plans > h3 {
+  margin-bottom: 7px;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.6);
+}
+.form{
+    border:1px solid red;
+}
+input{
+    width: 200px;
+    padding:5px;
+}

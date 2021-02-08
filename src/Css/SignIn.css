@@ -1,0 +1,44 @@
+.signin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: rgba(0,0,0,.9);
+    padding:10vh;
+    color:white;
+}
+form > h2{
+    text-align: left;
+    margin-bottom: 10px;
+}
+form > input{
+    padding:10px;
+    width: 250px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    outline: none;
+    border:none;
+}
+form > button{
+    width: 100%;
+    font-weight: bold;
+    color:white;
+    cursor: pointer;
+    background-color: crimson;
+}
+
+.signup:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+@media screen and (max-width:980px){
+    form > input{
+        width: 200px;
+    }
+}

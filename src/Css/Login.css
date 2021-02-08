@@ -1,0 +1,73 @@
+.login {
+  background: url("https://dkr0pu7ej5xex.cloudfront.net/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg")
+    center/cover no-repeat;
+  height: 100vh;
+  mask-image: linear-gradient(to bottom, black 30%, transparent);
+  position: relative;
+}
+.login__logo > img {
+  width: 100px;
+  object-fit: contain;
+}
+.login__logo {
+  padding: 1vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login__logo > button {
+  padding: 1vh 4vh;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: crimson;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.login__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding:10px;
+}
+.separate{
+    margin-bottom: 1.2vh;
+}
+.login__input{
+    padding:5vh;
+    display: flex;
+    flex-direction: row;
+}
+.login__input > input, button{
+    padding:10px;
+    border:none;
+    outline: none;
+}
+.login__input > input{
+    background-color: white;
+    width: 200px;
+    border-right: none;
+    cursor: pointer;
+}
+.login__input > button{
+    background-color: crimson;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+}
+@media screen and (max-width:980px){
+    .login__body, .login__input{
+        display: block;
+        margin:0 auto;
+        text-align: center;
+    }
+    .login__input > input{
+        border-radius: 0;
+    }
+}
+
+
